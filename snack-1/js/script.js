@@ -14,10 +14,23 @@ if (num1 > num2){
 
 // In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all'utente il suo nome e comunicagli se può partecipare o no alla festa.
 
-userName = (prompt('Come ti chiami?'))
+let guestList = ['Mario', 'Aldo', 'Luca', 'Peppe', 'Antonio', 'Chiara']
 
-if (isNaN(userName)){
+let userName = (prompt('Come ti chiami?'))
+
+if (isNaN(userName), guestList.includes() ){
     console.log(userName + ': Sei sulla lista')
 } else {
     console.log('Non sei sulla lista')
 }
+
+// Crea un array vuoto. Chiedi per 6 volte all'utente di inserire un numero,se è dispari inseriscilo nell'array.
+
+guestList = []
+let userNumber = prompt('Dammi un numero')
+
+if (userNumber % 2 == 0) {
+    guestList.indexOf(userNumber) 
+}
+console.log(userNumber)
+
