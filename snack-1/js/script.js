@@ -12,3 +12,12 @@ if (num1 > num2){
     console.log(num2)
 }
 
+// In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all'utente il suo nome e comunicagli se può partecipare o no alla festa.
+
+userName = (prompt('Come ti chiami?'))
+
+if (isNaN(userName)){
+    console.log(userName + ': Sei sulla lista')
+} else {
+    console.log('Non sei sulla lista')
+}
