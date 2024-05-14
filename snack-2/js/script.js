@@ -40,11 +40,11 @@ console.log('Hi!')
 
 
 function innerHTML(){
-    const primoDiv = (Document.createElement("div#primo"));
+    const primoDiv = createElement("div#primo");
 
     primoDiv.innerHTML = "Primo";
 
-    const secondoDiv = (Document.createElement("div#secondo"));
+    const secondoDiv = createElement("div#secondo");
 
     secondoDiv.innerHTML = "Secondo";
 }
