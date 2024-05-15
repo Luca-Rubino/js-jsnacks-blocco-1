@@ -19,13 +19,16 @@ console.log('hi!')
 // Crea due array che hanno un numero di elementi diversi. 
 // Aggiungi elementi all'array che ha meno elementi fino a quando ne avrà tanti quanti l'altro.
 
-let list1, list2
+const list1 = [1,2,3]
+console.log(list1)
 
-list1 = [1,2,3]
-list2 = [4,5,6,7,8,9]
+const list2 = [4,5,6,7,8,9]
+console.log(list2)
 
-if (list1 < list2) {
+if (list1.length < list2.length) {
     list1.push(list2)
-} else if (list1 > list2) {
-    list2.push(list1)
+} else {
+    list2.length.push(list1.length)
 }
+
+console.log(list1, list2)
