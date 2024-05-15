@@ -1,48 +1,31 @@
 console.log('hi!')
 
-// // L'utente inserisce due numeri in successione, con due prompt.
-// // Il software stampa il maggiore.
-
-// num1 = parseInt(prompt('scrivi un numero'))
-// num2 = parseInt(prompt('scrivi un numero'))
-
-// if (num1 > num2){
-//     console.log(num1)
-// } else {
-//     console.log(num2)
-// }
-
-// // In un array sono contenuti i nomi degli invitati alla festa del grande Gatsby, chiedi all'utente il suo nome e comunicagli se può partecipare o no alla festa.
-
-// let guestList = ['Mario', 'Aldo', 'Luca', 'Peppe', 'Antonio', 'Chiara']
-
-// let userName = (prompt('Come ti chiami?'))
-
-// if (isNaN(userName), guestList.includes() ){
-//     console.log(userName + ': Sei sulla lista')
-// } else {
-//     console.log('Non sei sulla lista')
-// }
-
-// // Crea un array vuoto. Chiedi per 6 volte all'utente di inserire un numero,se è dispari inseriscilo nell'array.
-
-// guestList = []
-// let userNumber = prompt('Dammi un numero')
-
-// if (userNumber % 2 == 0) {
-//     guestList.indexOf(userNumber) 
-// }
-// console.log(userNumber)
-
 // Snack9 Crea un array vuoto. Chiedi fino a che l'array non ha 6 numeri all'utente di inserire un numero,
 //  se è dispari inseriscilo nell'array.
 
-let list, num
+// let list, num, i
 
-list = []
+// list = []
 
-num = Number.parseInt(prompt('dammi un numero'))
+// while (list.length < 5) {
+//     num = Number.parseInt(prompt('dammi un numero'))
+//     if (num = !Number.parseInt(prompt('dammi un numero')) && num % 2 == 1) {
+//         list.push(num)
+//     }
 
-while (isNaN(num)) {
-    num = Number.parseInt(prompt('dammi un numero'))
+//     console.log(list)
+// }
+
+// Crea due array che hanno un numero di elementi diversi. 
+// Aggiungi elementi all'array che ha meno elementi fino a quando ne avrà tanti quanti l'altro.
+
+let list1, list2
+
+list1 = [1,2,3]
+list2 = [4,5,6,7,8,9]
+
+if (list1 < list2) {
+    list1.push(list2)
+} else if (list1 > list2) {
+    list2.push(list1)
 }
