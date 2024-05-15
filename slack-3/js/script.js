@@ -37,6 +37,6 @@ console.log('hi!')
 // Continua a chiedere i numeri all'utente e a inserirli nell'array fino a quando la somma degli elementi è minore di 50.
 
 const list = []
-console.log(list1)
+console.log(list)
 
 prompt(Number.parseInt('Dammi un numero'))
