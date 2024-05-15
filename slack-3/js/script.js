@@ -36,7 +36,17 @@ console.log('hi!')
 // Crea un array vuoto e chiedi all'utente un numero da inserire nell'array. 
 // Continua a chiedere i numeri all'utente e a inserirli nell'array fino a quando la somma degli elementi è minore di 50.
 
+let i
+
 const list = []
 console.log(list)
 
-prompt(Number.parseInt('Dammi un numero'))
+const num = Number.parseInt(prompt('Dammi un numero'))
+console.log(num)
+list.push(num)
+console.log(list)
+
+// while (i=0, i < 50, i++) {
+//     num = Number.parseInt(prompt('Dammi un numero'))
+//     list.push(num)
+// }
