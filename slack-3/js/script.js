@@ -36,17 +36,35 @@ console.log('hi!')
 // Crea un array vuoto e chiedi all'utente un numero da inserire nell'array. 
 // Continua a chiedere i numeri all'utente e a inserirli nell'array fino a quando la somma degli elementi è minore di 50.
 
-let i
+// let i,sum
 
-const list = []
-console.log(list)
+// const list = []
+// console.log(list)
 
-const num = Number.parseInt(prompt('Dammi un numero'))
-console.log(num)
-list.push(num)
-console.log(list)
+// sum = 0
+// console.log(num)
+// list.push(num)
+// console.log(list)
 
-// while (i=0, i < 50, i++) {
+// if (i=0, i < 50, i++) {
 //     num = Number.parseInt(prompt('Dammi un numero'))
+//     console.log(num)
 //     list.push(num)
+//     console.log(list)
 // }
+
+// correzione esercizio
+
+const list =[]
+let sum = 0
+
+while (sum < 50) {
+    let num = Number.parseInt(prompt('Dammi un numero'), 10)
+
+    if (Number.isNaN(num) !== true){
+        list.push(num)
+        sum = num
+    }
+}
+
+console.log(list, sum)
