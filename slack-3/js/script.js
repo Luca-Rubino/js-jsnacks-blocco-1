@@ -55,16 +55,30 @@ console.log('hi!')
 
 // correzione esercizio
 
-const list =[]
-let sum = 0
+// const list =[]
+// let sum = 0
 
-while (sum < 50) {
-    let num = Number.parseInt(prompt('Dammi un numero'), 10)
+// while (sum < 50) {
+//     let num = Number.parseInt(prompt('Dammi un numero'), 10)
 
-    if (Number.isNaN(num) !== true){
-        list.push(num)
-        sum = num
-    }
+//     if (Number.isNaN(num) !== true){
+//         list.push(num)
+//         sum = num
+//     }
+// }
+
+// console.log(list, sum)
+
+// Snack5
+// Dare la possibilità di inserire due parole. Verificare tramite una funzione che le due parole abbiano la stessa lunghezza. Se hanno la stessa lunghezza, stamparle entrambe altrimenti stampare la più lunga delle due.
+
+let text1, text2
+
+function insertText(text1, text2) {
+    if (text1.length > text2.length) {
+        console.log(text1)
+    } else if (text1.length < text2.length){
+        console.log(text2)
+    } else
+        console.log(text1, text2)
 }
-
-console.log(list, sum)
