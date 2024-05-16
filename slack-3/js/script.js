@@ -69,15 +69,35 @@ console.log('hi!')
 
 // console.log(list, sum)
 
-// Snack5
+// Snack12
 // Dare la possibilità di inserire due parole. Verificare tramite una funzione che le due parole abbiano la stessa lunghezza. Se hanno la stessa lunghezza, stamparle entrambe altrimenti stampare la più lunga delle due.
 
 
-function insertText(text1, text2) {
-    if (text1.length > text2.length) {
-        console.log(text1)
-    } else if (text1.length < text2.length){
-        console.log(text2)
-    } else
-        console.log(text1, text2)
+// function insertText(text1, text2) {
+//     if (text1.length > text2.length) {
+//         console.log(text1)
+//     } else if (text1.length < text2.length){
+//         console.log(text2)
+//     } else
+//         console.log(text1, text2)
+// }
+
+// let wordA, wordB
+// wordA = prompt('dammi prima parola')
+// wordB = prompt('dammi seconda parola')
+
+// insertText(wordA, wordB)
+
+
+// Snack13
+// Scrivi una funzione che dato un numero inverta le sue cifre: 1234 -> 4321
+
+function invertNumber(elementNumA, elementNumB){
+    
 }
+
+let NumA, NumB
+NumA = Number.parseInt(prompt('dammi primo numero')) 
+NumB = Number.parseInt(prompt('dammi secondo numero'))
+
+invertNumber(NumA, NumB)
