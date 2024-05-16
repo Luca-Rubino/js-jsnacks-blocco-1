@@ -7,3 +7,5 @@
 - Crea un array di numeri interi e fai la somma di tutti gli elementi che sono in posizione dispari
 - Snack7: Fai inserire un numero, che chiameremo N, all'utente. Genera N array, ognuno formato da 10 numeri casuali da 1 a 100. Ogni volta che ne crei uno, stampalo.
 - Snack8: Crea due tag div con due id diversi. Un div avrà il testo colorato di rosso mentre l'altro di verde. Partendo da un array di numeri, stampiamo nell'id rosso i numeri dispari e in verde i numeri pari.
+
+> 
