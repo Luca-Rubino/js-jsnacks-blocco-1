@@ -15,7 +15,7 @@ setInterval(() => {
 setTimeout(timer, 1000)
 
 function timer(){
-    for(let i=0;i >= userNumber; i--){
+    for(let i=0;i <= userNumber; i++){
         console.log(i)
     }
 }
