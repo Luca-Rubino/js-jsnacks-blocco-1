@@ -10,6 +10,8 @@ const palla = {
     peso: 10
 }
 
-palla['peso'] = prompt('quanto deve pesare la palla?')
+console.log(palla)
+
+palla['peso'] = Number.parseInt(prompt('quanto deve pesare la palla?'),10)
 
 console.log(palla)
